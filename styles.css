@@ -255,9 +255,11 @@ ul.contentCuartiary__indice__list li:first-child {
   z-index: 1;
 }
 
-.contentSixth h1 {
+.contentSixth h5 {
+  font-size: 2rem;
   font-weight: 400;
   color: #333333;
+  margin: 10px;
 }
 
 .contentFooter {
@@ -426,21 +428,24 @@ ul.contentCuartiary__indice__list li:first-child {
     height: 100%;
     border-radius: 8px;
   }
-
+  .contentQuinary {
+    height: 600px;
+  }
   .contentQuinary__bgText {
     display: block;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -110%);
+    transform: translate(-50%, -200%);
     font-size: 25rem;
     opacity: 0.05;
     z-index: 0;
     letter-spacing: 60px;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   .socialIcons.--lightMode {
+    margin-top: 200px;
     gap: 150px;
     z-index: 2;
     position: relative;
@@ -451,16 +456,20 @@ ul.contentCuartiary__indice__list li:first-child {
     justify-content: center;
     gap: 150px;
   }
+  .contentSixth h5 {
+    font-size: 2.5rem;
+  }
 
   .contentSixth__bgText {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -200%);
     font-size: 10rem;
     font-weight: 500;
     z-index: 0;
     opacity: 0.05;
-    letter-spacing: 60px;
+    letter-spacing: 80px;
   }
+ 
 }
